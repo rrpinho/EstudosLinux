@@ -1,0 +1,43 @@
+﻿Alt + F2 -> Abre a tela de executar o comando
+gnome-terminal -> (No executar comando) para abrir o terminal
+clear {Ou Ctrl+L} -> Limpa a tela.
+cat --> Visuliza o que está escrito no arquivo.
+tac --> Visualiza (De baixo para cima).
+| ----> Significa que vai executar uma função e após outra.
+tr ---> Substitui o 1° Parenteses pelo o que estiver no 2°.
+touch -> Cria um arquivo.
+nano -> Abre o arquivo em editor de texto.
+ls --> Comando que lista o conteúdo do diretório atual.
+pwd --> Exibe o caminho para a pasta atual que se encontra.
+cp --> Copia arquivos (Ctrl+C e Ctrl+V)
+	Ex.: $ cp Exemplo.doc /home/pi/Documents
+mv --> Move arquivos (Ctrl+X e Ctrl+V)
+	Ex.: $ mv Exemplo.doc /home/pi/Documents
+	Obs.: $mv Exemplo.doc EXEMPLO.doc --> Renomeia o arquivo
+man --> Mostra oque o comando faz.
+	Ex.: man ls
+sort -> Organiza o que tem na pasta em ordem alfabetica.
+rm --> Remove um arquivo.
+cut -->
+echo "" -> Mostra o texto na tela.
+top -> Mostra os processos que estão sendo executados no momento.
+jobs -> Mostra os processos que estão parados ou rodando em segundo plano.
+read -> Leitura do teclado pelo usuário.
+mkdir -> Cria um diretório.
+rmdir -> Exclui o diretório (Precisa remover tudo que está dentro).
+cd ---> Abre o diretório.
+cd .. --> Sai do diretório.
+uname -a -> Ver a versão do sistema que está instalado.
+uptime -> Ver as horas e quanto tempo a máquina está ligada.
+date -> Verifica a data e horário.
+users -> Visualiza os usuários que estão conectados.
+chmod -> Dá permição para um arquivo.
+chmod +x -> Torna o arquivo executável.
+chmod -x -> Torna o arquivo não executável.
+python -> Executa um arquivo em python.
+"comando" > "arquivo" --> Escreve tudo que tem no comando no arquivo.
+#!/bin/bash --> 1°Linha de um arquivo script.sh.
+sudo --> permissão de root/adm.
+sudo apt-get upgrade --> Baixa os pacotes de atualizações.
+sudo apt-get update --> Instala os pacotes de atualizações.
+sudo apt-get install " " --> Instalar um programa.
